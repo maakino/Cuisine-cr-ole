@@ -18,7 +18,7 @@
         <nav class="header_nav">
             <ul class="nav_block">
                 <li class="accueil"><a href="#">Accueil</a></li>
-                <li><a href="#">Nos menus</a></li>
+                <li><a href="#menu">Nos menus</a></li>
             </ul>
         </nav>
     </header>
@@ -27,30 +27,33 @@
         <section class="home">
             <h1>Cuisine créole</h1>
         </section>
-        <section class="menu">
+        <section class="menu" id="menu">
             <h2>nos menus</h2>
             <!-- card rougail suaccise -->
-            <div class="card">
-                <img src="img/card/saucisse.jpg" width="420" height="auto" alt="">
-                <p>Découvrez la recette du Rougail saucisses réunionnais, spécialité créole relevée et généreuse qui
-                    sent bon la Réunion.</p>
-                <input type="button" value="Voir recette">
+            <div class="card_contain">
+                <div class="card">
+                    <img src="img/card/saucisse.jpg" width="420" height="auto" alt="">
+                    <h3>Rougail saucisse</h3>
+                    <p>Découvrez la recette du Rougail saucisses réunionnais, spécialité créole relevée et généreuse qui
+                        sent bon la Réunion.</p>
+                    <input class="btn" type="button" value="Voir recette">
+                </div>
+                <!-- card Carry poulet -->
+                <div class="card">
+                    <img src="img/card/carry-poulet.jpg" width="420" height="auto" alt="">
+                    <h3>Carry Poulet</h3>
+                    <p>Manger avec du riz, des grains et un bon petit rougail mangue pimenté bien sûr...</p>
+                    <input class="btn" type="button" value="Voir recette">
+                </div>
+                <!-- card massalé -->
+                <div class="card">
+                    <img src="img/card/cabri-massale.jpeg" width="420" height="auto" alt="">
+                    <h3>Cabry massalé</h3>
+                    <p>Plat d'origine mauricienne, le cabri se consomme le plus traditionnellement lors de cérémonies
+                        tamoules.</p>
+                    <input class="btn" type="button" value="Voir recette">
+                </div>
             </div>
-            <!-- card Carry poulet -->
-            <div class="card">
-                <img src="img/card/carry-poulet.jpg" width="420" height="auto" alt="">
-                <p>Découvrez la recette du Rougail saucisses réunionnais, spécialité créole relevée et généreuse qui
-                    sent bon la Réunion.</p>
-                <input type="button" value="Voir recette">
-            </div>
-            <!-- card massalé -->
-            <div class="card">
-                <img src="img/card/cabri-massale.jpeg" width="420" height="auto" alt="">
-                <p>Découvrez la recette du Rougail saucisses réunionnais, spécialité créole relevée et généreuse qui
-                    sent bon la Réunion.</p>
-                <input type="button" value="Voir recette">
-            </div>
-
 
         </section>
     </main>
