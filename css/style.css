@@ -8,7 +8,10 @@
     font-family: "Raleway-Medium";
     src: url(../font/Raleway-Medium.ttf);
 }
-
+@font-face {
+    font-family: "Raleway-Bold" ;
+    src: url(../font/Raleway-Bold.ttf);
+}
 body {}
 
 header {
@@ -84,4 +87,5 @@ header::after {
     background: rgba(0, 0, 0, 0.37);
     border-radius: 5px;
     text-align: center;
+    font-family: "Raleway-Bold";
 }
