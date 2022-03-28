@@ -1,0 +1,87 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url(../font/Raleway-Medium.ttf);
+}
+
+body {}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding-left: 51px;
+    height: 84px;
+    box-shadow: 2.72px 8px 24px rgba(0, 0, 0, 0.05);
+    font-family: "Raleway-Medium";
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 263px;
+    font-size: 24px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+}
+
+.nav_block {
+    display: flex;
+    justify-content: space-evenly;
+    width: 274px;
+    font-size: 24px;
+    list-style: none;
+}
+
+.nav_block a {
+    text-decoration: none;
+    color: #344547;
+
+}
+
+.accueil::after {
+    content: "|";
+    margin-left: 20px;
+}
+
+.nav_block a:hover {
+    border-bottom: 2px solid #344547;
+}
+
+/* Fin du Header */
+
+.home {
+    height: calc(100vh - 84px);
+    background-image: url("../img/Cap-noir-bestjobers.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1 {
+    width: 702px;
+    color: white;
+    font-size: 96px;
+    background: rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    text-align: center;
+}
