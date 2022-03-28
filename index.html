@@ -10,21 +10,20 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <p class="logo">
             <img src="img/drapeau.png" alt="" width="81" height="54" loading="lazy">
             <span>Cuisine créole</span>
         </p>
         <nav class="header_nav">
             <ul class="nav_block">
-                <li class="accueil"><a href="#">Accueil</a></li>
+                <li class="accueil"><a href="#home">Accueil</a></li>
                 <li><a href="#menu">Nos menus</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <h1>Cuisine créole</h1>
         </section>
         <section class="menu" id="menu">
@@ -32,7 +31,7 @@
             <!-- card rougail suaccise -->
             <div class="card_contain">
                 <div class="card">
-                    <img src="img/card/saucisse.jpg" width="420" height="auto" alt="">
+                    <img src="img/card/saucisse.jpg" width="420" height="auto" alt="rougail saucisse">
                     <h3>Rougail saucisse</h3>
                     <p>Découvrez la recette du Rougail saucisses réunionnais, spécialité créole relevée et généreuse qui
                         sent bon la Réunion.</p>
@@ -40,14 +39,14 @@
                 </div>
                 <!-- card Carry poulet -->
                 <div class="card">
-                    <img src="img/card/carry-poulet.jpg" width="420" height="auto" alt="">
+                    <img src="img/card/carry-poulet.jpg" width="420" height="auto" alt="Carry poulet">
                     <h3>Carry Poulet</h3>
                     <p>Manger avec du riz, des grains et un bon petit rougail mangue pimenté bien sûr...</p>
                     <input class="btn" type="button" value="Voir recette">
                 </div>
                 <!-- card massalé -->
                 <div class="card">
-                    <img src="img/card/cabri-massale.jpeg" width="420" height="auto" alt="">
+                    <img src="img/card/cabri-massale.jpeg" width="420" height="auto" alt=" cabri massalé">
                     <h3>Cabry massalé</h3>
                     <p>Plat d'origine mauricienne, le cabri se consomme le plus traditionnellement lors de cérémonies
                         tamoules.</p>
@@ -56,11 +55,10 @@
             </div>
         </section>
     </main>
-
     <footer>
         <div class="content_footer">
             <div class="logo_footer">
-                <img src="img/drapeau.png" alt="" width="237" height="158" loading="lazy">
+                <img src="img/drapeau.png" alt="drapeau île de la réunion" width="237" height="158" loading="lazy">
                 <p>Cuisine créole</p>
             </div>
 
@@ -68,25 +66,30 @@
                 <h4>Menu de navigation</h4>
                 <nav>
                     <ul>
-                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#home">Accueil</a></li>
                         <li><a href="#menu">Nos menus</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="resaux">
                 <h4>Réseaux sociaux</h4>
-                <p class="youtube"> 
-                    <img src="img/logos_youtube-icon.png" alt="">
-                    Youtube
+                <p class="youtube">
+                    <img src="img/logos_youtube-icon.png" width="35" height="24" alt="logo youtube">
+                    <span>
+                        <a href="#">Youtube</a>
+                    </span>
+
                 </p>
 
-                <p class="twitch"> 
-                    <img src="img/twtitch.png" alt="">
-                    Twitch
+                <p class="twitch">
+                    <img src="img/twtitch.png" width="30" height="auto" alt="logo twitch">
+                    <span>
+                        <a href="#">Twitch</a>
+                    </span>
                 </p>
             </div>
         </div>
-        <p>Copyright Maakyno 2022</p>
+        <p class="copy">Copyright Maakyno 2022</p>
     </footer>
 </body>
 
